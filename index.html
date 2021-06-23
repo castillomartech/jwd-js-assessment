@@ -14,15 +14,15 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Quiz</title>
+    <title>Test</title>
   </head>
   <body>
     <div class="container m-5" id="start">
       <div class="card" style="width: 18rem">
         <div class="card-body">
-          <h5 class="card-title">Test your knowledge</h5>
-          <p class="card-text">Some quick description about the quiz .</p>
-          <a class="btn btn-primary">Start</a>
+          <h5 class="card-title">Test your knowledge about Australia</h5>
+          <p class="card-text">Make sure you check yours answers before submitting the test.</p>
+          <a class="btn btn-primary">Start the test here</a>
         </div>
       </div>
     </div>
@@ -30,17 +30,17 @@
     <!-- (B) QUIZ CONTAINER -->
     <div class="container" id="quizBlock" style="display: none">
       <div class="mb-5">
-        <h2>Test your knowledge</h2>
-        - Time remaining <span id="time">01:00</span>
+        <h2>Test your knowledge about Australia</h2>
+        - Remaining Time <span id="time">01:00</span>
       </div>
       <div id="quizWrap"></div>
 
       <div>
         <button type="button" class="btn btn-primary" id="btnSubmit">
-          Submit Quiz
+          Submit Test
         </button>
         <button type="button" class="btn btn-primary" id="btnReset">
-          Reset Quiz
+          Reset Test
         </button>
         <span id="score"></span>
       </div>
@@ -65,4 +65,7 @@
     ></script>
     <script src="./js/index.js"></script>
   </body>
+  <footer>
+    &copy; <em id="date"></em>Sebastian Castillo 2021
+  </footer>
 </html>
